@@ -31,7 +31,7 @@ export class AdminService {
         
                          }
 
-          async signup(mydto) {
+          /*async signup(mydto) {
                                          //const existingAdmin = await this.adminRepo.findOneBy({ name: mydto.name });
                                         // if(existingAdmin){
                                          //return "Username already exists, please choose a different username";
@@ -42,7 +42,7 @@ export class AdminService {
                                              mydto.password= hassedpassed;
                                                return this.adminRepo.save(mydto);
                                                  // }
-                                 }
+                                 }*/
 
 
             async signin(mydto){

@@ -100,7 +100,7 @@ export class AdminController{
           })
 
         }))
-          signup(@Body() mydto:AdminForm,@UploadedFile(  new ParseFilePipe({
+         /* signup(@Body() mydto:AdminForm,@UploadedFile(  new ParseFilePipe({
          validators: [
          new MaxFileSizeValidator({ maxSize: 160000 }),
          new FileTypeValidator({ fileType: 'png|jpg|jpeg|' }),
@@ -111,7 +111,7 @@ export class AdminController{
 
          return this.adminService.signup(mydto);
          console.log(file)
-       }
+       }*/
 
        /*@Post('/signin')
          async signin(@Session() session,  @Body("email") email:string,
